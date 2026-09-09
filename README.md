@@ -91,7 +91,7 @@ http://localhost:8501
 
 | Model | MAE | R² |
 |---|---:|---:|
-| Linear Regression | 8.39 | 0.9669 |
+| Linear Regression | 8.39 | 0.97 |
 | XGBoost (default) | 1.48 | 0.9988 |
 | **XGBoost (tuned)** | **1.38** | **0.9991** |
 

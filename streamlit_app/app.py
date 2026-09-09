@@ -50,7 +50,12 @@ st.title("Calories Burnt Predictor")
 st.write("Enter your exercise details below to estimate how many calories you burnt.")
 st.write("")
 
-MODEL_PATH = "../notebook/calories_prediction_model.pkl"
+MODEL_PATH = os.path.join(
+    os.path.dirname(__file__),
+    "..",
+    "notebook",
+    "calories_prediction_model.pkl"
+)
 
 @st.cache_resource
 def load_model(path):

@@ -16,6 +16,10 @@ st.markdown(
         [data-testid="stSelectbox"] * {
             cursor: pointer !important;
         }
+        
+        [data-testid="InputInstructions"] {
+            display: none !important;
+        }
 
         .result-card {
             # background-color: #f0f7ff;
